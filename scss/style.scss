@@ -1,0 +1,32 @@
+@import "normalize";
+@import "layout";
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+
+.ba-logo-icon{
+	fill:#94CEB9;
+	stroke: #94CEB9;
+	fill: transparent;
+
+	stroke-width: 1px;
+	
+}
+
+.ba-logo-beetroot,
+.ba-logo-academy{
+	fill:#231F20;
+}
